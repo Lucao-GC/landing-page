@@ -49,7 +49,7 @@ h3 {
 
 /*Quadrados que compõem o background da primeira parte*/
 
-.section-1::before{
+.section-1::before {
     content: "";
     position: absolute;
     width: 700px;
@@ -67,22 +67,22 @@ h3 {
 /* parte de dentro do quadrado */
 
 .section-1::after {
-  content: "";
-  position: absolute;
-  width: 600px;
-  height: 600px;
-  background-color: #21002F; 
-  transform: rotate(45deg);
+    content: "";
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background-color: #21002F;
+    transform: rotate(45deg);
 }
 
 .section-1::after {
-  top: 150px;
-  left: -100px;
+    top: 150px;
+    left: -100px;
 }
 
 /* quadrado do lado direito */
 
-.container-2::before{
+.container-2::before {
     content: "";
     position: absolute;
     width: 700px;
@@ -101,18 +101,18 @@ h3 {
 /* parte de dentro do quadrado */
 
 .container-2::after {
-  content: "";
-  position: absolute;
-  width: 600px;
-  height: 600px;
-  background-color: #21002F; 
-  transform: rotate(45deg);
-  z-index: -10;
+    content: "";
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background-color: #21002F;
+    transform: rotate(45deg);
+    z-index: -10;
 }
 
 .container-2::after {
-  top: -600px;
-  right: -100px;
+    top: -600px;
+    right: -100px;
 }
 
 .container-1 {
@@ -351,26 +351,60 @@ h3 {
 
 /* footer */
 
-.footer{
+.footer {
     background-color: #190023;
+    color: #B4B0B5;
+    padding: 20px;
     height: 50%;
 }
 
-.container-5{
+.container-5 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+}
+
+.content-left,
+.content-right {
+    width: 50%;
+}
+
+.content-left h3,
+.content-right h3 {
+    padding-bottom: 10px;
+    color: #FFF;
     font-family: Lato, sans-serif;
-    color: #B4B0B5;
-    
 }
 
-.container-5 li{
-    list-style-type: none;
+hr {
+    background-color: #300344;
+    border: none;
+    height: 2px;
+    width: 50%;
+    margin-bottom: 20px;
 }
 
-.social-icons{
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+}
+
+.social-icons img {
+    margin-right: 10px;
+    width: 24px;
+    height: auto;
+}
+
+.social-icons {
     display: flex;
     gap: 20px;
+
 }
 
 /* media queries para responsividade do site*/
