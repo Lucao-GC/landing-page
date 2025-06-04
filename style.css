@@ -549,8 +549,6 @@ ul li {
         display: none;
     }
 
-
-
     .section2,
     .section3 {
         height: auto;
@@ -575,5 +573,12 @@ ul li {
     .card {
         width: 90%;
         margin-bottom: 20px;
+    }
+
+    .container-5{
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        height: auto;
     }
 }
