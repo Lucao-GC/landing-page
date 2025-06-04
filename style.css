@@ -141,7 +141,7 @@ h3 {
 }
 
 .box-form {
-    background-color: #FFF;
+    background-color: #E9E6EA;
     border-radius: 12px;
     padding: 35px;
     width: 100%;
@@ -330,12 +330,13 @@ h3 {
     align-items: center;
 }
 
-.container-4 p {
+.container-4 h1 {
     font-family: Poppins, sans-serif;
     color: #BA3200;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 26px;
     text-align: center;
+    margin-top: 15px;
 }
 
 .avaliacoes {
